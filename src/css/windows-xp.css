@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #008383; /* Cor de fundo semelhante ao Windows XP */
@@ -5,20 +11,23 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
 }
 
 window {
-  width: 600px;
+  min-width: 600px;
+  width: auto;
   background-color: #c0c0c0; /* Cor do corpo da página cinza estilo Windows XP */
   border: 1px solid black;
   box-shadow: 5px 5px 0 black;
   padding: 10px;
+  overflow: hidden;
 }
 
 .title-bar {
   background-color: #00027d; /* Cor de fundo da barra de título azul escuro estilo Windows XP */
   padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
   color: white;
   font-weight: bold;
   border-bottom: 1px solid black;
@@ -29,5 +38,5 @@ h1 {
 }
 
 p {
-  color: #000; /* Texto preto no conteúdo */
+  color: black; /* Texto preto no conteúdo */
 }
