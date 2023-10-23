@@ -21,6 +21,7 @@ window {
   box-shadow: 5px 5px 0 black;
   padding: 10px;
   overflow: hidden;
+  min-height:150px;
 }
 
 title-bar {
