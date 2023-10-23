@@ -23,7 +23,8 @@ window {
   overflow: hidden;
 }
 
-.title-bar {
+title-bar {
+  display: block;
   background-color: #00027d; /* Cor de fundo da barra de título azul escuro estilo Windows XP */
   padding: 5px;
   margin-bottom: 10px;
