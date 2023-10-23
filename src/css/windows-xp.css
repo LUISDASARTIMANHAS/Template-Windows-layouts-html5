@@ -11,9 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-wrap:wrap;
 }
 
 window {
+  display: flex;
+  flex-direction: column;
   min-width: 600px;
   width: auto;
   background-color: #c0c0c0; /* Cor do corpo da página cinza estilo Windows XP */
@@ -21,7 +24,8 @@ window {
   box-shadow: 5px 5px 0 black;
   padding: 10px;
   overflow: hidden;
-  min-height:150px;
+  min-height: 150px;
+  margin:10px;
 }
 
 title-bar {
