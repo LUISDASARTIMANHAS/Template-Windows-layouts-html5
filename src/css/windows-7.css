@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #008383; /* Cor de fundo semelhante ao Windows XP */
+  background-color: #0082FF; /* Cor de fundo semelhante ao Windows XP */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,10 @@ window {
   flex-direction: column;
   min-width: 600px;
   width: auto;
-  background: rgb(106, 123, 136);
+  
+  /* Cor do corpo da página cinza estilo Windows 7 */
+  background-color: #FFFFFF; 
+/*   background: rgb(106, 123, 136);
   background: linear-gradient(
     90deg,
     rgba(106, 123, 136, 1) 0%,
@@ -31,8 +34,7 @@ window {
     rgba(191, 217, 216, 1) 75%,
     rgba(148, 174, 189, 1) 87%,
     rgba(106, 123, 136, 1) 100%
-  );
-  /* Cor do corpo da página cinza estilo Windows XP */
+  ); */
   border: 1px solid black;
   box-shadow: 5px 5px 0 black;
   padding: 10px;
@@ -43,7 +45,9 @@ window {
 
 title-bar {
   display: block;
-  background-color: #c8c8c8; /* Cor de fundo da barra de título azul escuro estilo Windows XP */
+  /* Cor de fundo da barra de título azul escuro estilo Windows XP */
+  background-color: rgba(0, 0, 128, 0.6); 
+/*   background-color: #c8c8c8;  */
   padding: 5px;
   margin-bottom: 10px;
   width: 100%;
