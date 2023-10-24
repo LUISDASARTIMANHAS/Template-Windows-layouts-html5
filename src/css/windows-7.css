@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #008383; /* Cor de fundo semelhante ao Windows XP */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+window {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  width: auto;
+  background: rgb(106, 123, 136);
+  background: linear-gradient(
+    90deg,
+    rgba(106, 123, 136, 1) 0%,
+    rgba(97, 116, 131, 1) 12%,
+    rgba(67, 98, 132, 1) 25%,
+    rgba(46, 80, 117, 1) 37%,
+    rgba(51, 81, 114, 1) 50%,
+    rgba(77, 108, 143, 1) 62%,
+    rgba(191, 217, 216, 1) 75%,
+    rgba(148, 174, 189, 1) 87%,
+    rgba(106, 123, 136, 1) 100%
+  );
+  /* Cor do corpo da página cinza estilo Windows XP */
+  border: 1px solid black;
+  box-shadow: 5px 5px 0 black;
+  padding: 10px;
+  overflow: hidden;
+  min-height: 150px;
+  margin: 10px;
+}
+
+title-bar {
+  display: block;
+  background-color: #c8c8c8; /* Cor de fundo da barra de título azul escuro estilo Windows XP */
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+conteudo{
+  padding: 10px;
+  background: white;
+  height: 100%;
+}
+
+h1 {
+  color: #ffffff; /* Texto branco na barra de título */
+}
+
+p {
+  color: black; /* Texto preto no conteúdo */
+}
