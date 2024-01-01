@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'MS Sans Serif Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Microsoft Sans Serif Regular'), url('/src/assets/micross.woff.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Microsoft Sans Serif';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MS Sans Serif'), url('/src/assets/micross.woff.woff') format('woff');
+}
+
+* {
+    font-family: 'MS Sans Serif';
+}
+
+body {
+    background-color: #16a085;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+footer {
+    background-color: gray;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
+}
+
+windows button {
+    background-color: #808080;
+    margin: 5px;
+    border-top-color: #ecf0f1;
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-left-color: #ecf0f1;
+    padding: 5px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+windows button:hover {
+    opacity: 0.7;
+    border-style: inset;
+}
+
+windows {
+    background-color: gray;
+    min-width: 25%;
+    max-width: 75%;
+    border-style: solid;
+    border-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: capitalize;
+    border-right-color: #000000;
+    border-right-width: 1px;
+    border-bottom-color: #000000;
+    border-bottom-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+}
+
+/* Windows buttons */
+windows windows-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Windows container */
+windows windows-container {
+    margin: 10px 0px;
+}
+
+windows-header {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+windows-header h1 {
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+windows-header button {
+    min-height: 25px;
+    min-width: 10%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* Image */
+footer button img {
+    width: 100%;
+    min-height: 50px;
+    height: 10vh;
+}
+
+/* Button */
+footer button {
+    height: 10vh;
+}
